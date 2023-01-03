@@ -1,10 +1,9 @@
 
 
 
-  <h3 class="text-center" >
+  <h3>
     Features page
   </h3>
 
-<h4 class="text-center">
-    Hello world!
-</h4>
+
+<p>Add new features <a href="/nav/add"> +add  </a>here</p>
