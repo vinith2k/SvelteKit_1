@@ -1,12 +1,13 @@
 <script lang="ts">
-	
-     import { onMount,onDestroy } from "svelte";
 
-    onMount(() => console.log('Mounted home page'))
-    onDestroy(() => console.log('Unmout home page'))
+	import { onMount,onDestroy } from "svelte";
 
+    onMount(()   => console.log('Mounted Features Page'))
+    onDestroy(() => console.log('Unmounted Features page'))
 
 </script>
+
+
 
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -18,10 +19,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link " aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="nav/">Features</a>
+            <a class="nav-link active" href="/">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/">Pricing</a>
@@ -32,8 +33,7 @@
     </div>
   </nav>
 
-
   <h3>
-    Home page
+    Features page
   </h3>
 
